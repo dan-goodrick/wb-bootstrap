@@ -30,18 +30,24 @@ export default function App() {
             description:
               'Embrace the goodness of nature with every sip of our smoothies, crafted from the freshest, locally-sourced ingredients.',
             action: 'Try Now',
+            icon: "bi bi-film",
+            style: { color: 'black'}
           },
           {
             title: 'Health with a Twist',
             description:
               'Treat yourself without compromise, as we blend flavors creatively to deliver wholesome goodness without added sugars or artificial additives.',
             action: 'Learn More',
+            icon: "bi bi-android2",
+            style: { color: 'pink'}
           },
           {
             title: 'Community Wellbeing',
             description:
               'Join the Jumble Tribe and be a part of our health-conscious community, inspiring each other to lead active and joyful lives.',
             action: 'Join Us',
+            icon: "bi bi-apple",
+            style: { color: 'blue'}
           },
         ]}
       />
