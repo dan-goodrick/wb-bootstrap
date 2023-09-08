@@ -2,7 +2,7 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 
 export default function MainNav({ brand, leftLinks, rightLinks }) {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-success navbar-dark">
       <Container fluid>
         <Navbar.Brand href="#home">{brand}</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
